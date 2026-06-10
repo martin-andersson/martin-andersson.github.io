@@ -3,10 +3,40 @@
 <head>
 <meta charset="utf-8">
 
-<img src="images/martin.jpg" alt="Martin Andersson">
-<title>Martin Andersson</title>
+<div class="header">
+    <img src="images/martin.jpg"
+        class="portrait"
+        alt="Martin Andersson">
 
+<div class="bio">
+
+    <h1>Martin Andersson</h1>
+
+    <p>
+        Associate Professor<br>
+        Instituto de Matemática e Estatística<br>
+        Universidade Federal Fluminense
+    </p>
+
+    </div>
+</div>
+
+    
 <style>
+
+    .header {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .portrait {
+        width: 250px;
+    }
+
+    .bio {
+        flex: 1;
+    }
 
 body {
     max-width: 900px;
