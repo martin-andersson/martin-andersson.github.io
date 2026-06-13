@@ -11,7 +11,7 @@
 
 
 <div class="header">
-    <img src="images/martin.jpg"
+    <img id="portrait"
         class="portrait"
         alt="Martin Andersson">
 
@@ -81,6 +81,24 @@ My research focuses on topics in smooth ergodic theory (Lyapunov exponents,
     properties of a system (action of a diffeomorphism in homology groups) 
     and infinitesimal analysis, such as Lyapunov exponents.
 
+<script>
+	const photos = [
+			"images/martin1.jpg",
+			"images/martin2.jpg",
+			"images/martin3.jpg",
+			"images/martin4.jpg",
+			"images/martin5.jpg",
+			"images/martin6.jpg"
+			];
+
+	const choice = photos[Math.floor(Math.random()*photos.length)];
+
+	document.getElementById("portrait").src = choice;
+</script>
 
 </body>
+
+
+
+
 </html>
