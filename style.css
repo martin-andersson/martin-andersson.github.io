@@ -18,6 +18,19 @@
         margin-bottom: 8px;
     }
 
+@media (max-width: 700px) {
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .portrait {
+        width: 180px;
+    }
+
+}
 
 body {
 	max-width: 900px;
@@ -26,7 +39,7 @@ body {
 	font-family: Georgia, serif;
 	line-height: 1.6;
 	color: #222;
-	background-image: url("images/tile.png");
+	background-image: url("images/nue_endomorphism.png");
 	background-repeat: repeat;
 	background-color: #ffffff;
 }
@@ -50,6 +63,12 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+nav a.active {
+    color: #0b5f7a;
+	font-weight: bold;
+}
+
 
 section {
     margin-top: 50px;
