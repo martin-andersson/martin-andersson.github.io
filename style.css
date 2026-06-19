@@ -20,6 +20,11 @@
 
 @media (max-width: 900px) {
 
+     nav {
+	     flex-direction: column;
+	     gap: 8px;
+     }
+
     .header {
         flex-direction: column;
         align-items: center;
@@ -74,6 +79,20 @@ nav a.active {
 	font-weight: bold;
 }
 
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	aligh-items: center;
+}
+
+.nav-right {
+	font-size: 0.9em;
+}
+
+.nav-right a {
+	margin: 0 2px;
+}
 
 section {
     margin-top: 50px;
