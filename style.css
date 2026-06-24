@@ -83,7 +83,7 @@ nav a.active {
 nav {
 	display: flex;
 	justify-content: space-between;
-	aligh-items: center;
+	align-items: center;
 }
 
 .nav-right {
