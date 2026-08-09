@@ -18,6 +18,16 @@
         margin-bottom: 8px;
     }
 
+
+    .bio-link {
+	    color: inherit;
+	    text-decoration: none;
+    }
+
+    .bio-link:hover {
+	    text-decoration: underline;
+    }
+
 @media (max-width: 900px) {
 
      nav {
